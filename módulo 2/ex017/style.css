@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkcyan;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    
+    /* shorthand font
+
+    - font-style -> font-weight -> font-size -> font-family */
+
+    font: italic bolder 3em 'Arial', sans-serif;
+
+    /*
+    Medidas absolutas
+    cm, mm, in, px, pt, pc
+
+    16 px é a padrão
+    e 16 px geralmente é = 1em
+
+    Medidas relativas
+    em, ex, rem, vw, vh, %
+    */
+    font-size: 16px ;
+    /*
+    font-weight é o peso da fonteb que é o negrito da fonte (lighter normal bold e bolder)
+    */
+
+    /* shorthand font
+
+    - font-style -> font-weight -> font-size -> font-family */
+}
+
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cornflowerblue;
+}
